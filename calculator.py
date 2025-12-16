@@ -27,25 +27,25 @@ while True:
 
     if choice == 1:
         add = n1+n2
-        print(f"Addition result is{add}")
+        print(f"Addition result is {add}.")
     elif choice == 2:
         sub = n1-n2
-        print(f"Subtraction result is {sub}")
+        print(f"Subtraction result is {sub}.")
     elif choice == 3:
         mul = n1*n2
-        print(f"Multiplication result is {mul}")
+        print(f"Multiplication result is {mul}.")
     elif choice == 4:
         div = n1/n2
-        print(f"Division result is {div}")
+        print(f"Division result is {div}.")
     elif choice == 5:
         rem = n1%n2
-        print(f"Remainder result is {rem}")
+        print(f"Remainder result is {rem}.")
     elif choice == 6:
         power = n1**n2
-        print(f"Power result is {power}")
+        print(f"Power result is {power}.")
     elif choice == 7:
         quo = n1//n2
-        print(f"Quotient result is {quo}")
+        print(f"Quotient result is {quo}.")
     elif choice == 8:
         if n1%2 == 0:
             print(f"{n1} is an even number.")
